@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        int x = 9;
+        int x = 17;
         System.out.println("Original value: " + x);
         System.out.println("Binary form: "+ Integer.toBinaryString(x));
         x = x << 1;
