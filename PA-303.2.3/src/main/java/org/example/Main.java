@@ -2,13 +2,13 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        int x = 32456;
-        System.out.println("Original value: " + x);
+        int x = 7;
+        int y = 17;
+        int z = x & y;
+        System.out.println("Task 3:");
+        System.out.println("x:" + x +"(" + Integer.toBinaryString(x) + ")" );
+        System.out.println("x:" + y +"(" + Integer.toBinaryString(y) + ")" );
+        System.out.println("x:" + z +"(" + Integer.toBinaryString(z) + ")" );
         System.out.println("Binary form: "+ Integer.toBinaryString(x));
-        x = x >> 2;
-        System.out.println("After left shift by 1:"+ x);
-        System.out.println("Desimal value:" + x);
-        System.out.println("Binary form: " + Integer.toBinaryString(x));
-
     }
 }
